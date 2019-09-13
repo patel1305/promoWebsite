@@ -1,0 +1,55 @@
+/* Everything here is a comment */
+
+body
+{
+    background-color: cadetblue;
+
+  /*  background-image: url("images/dogpicture.jpg");
+
+    background-repeat: no-repeat;
+
+    background-size: cover;*/
+
+}
+
+
+h4
+{
+    color: azure;
+
+}
+
+/* how to style part with id by using a hashtag*/
+#textEnhance
+{
+    color: crimson;
+    background-image: linear-gradient(orange,teal);
+}
+
+.topNav a
+{
+    float:middle;
+    color: cornflowerblue;
+    text-align: center;
+    line-height: 80px;
+    padding: 18px 16px;
+    font-size: 40px;
+    text-decoration: none;
+
+}
+
+.topNav
+{
+
+    background-color: black;
+
+    /* addresses sizing error*/
+    overflow: hidden;
+
+}
+
+.topNav a:hover
+{
+    background-color: crimson;
+    color:hotpink;
+}
